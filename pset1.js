@@ -16,6 +16,15 @@
     @example - makeEven('john'); // 'john'
 */
 
+const makeEven = (str) => {
+    if (str.length % 2 === 1){
+        return str + '#';
+    } 
+    return str;
+}
+console.log(makeEven('Taq'));
+console.log(makeEven('John'));
+console.log(makeEven('Srirupa'));
 
 /* 2
     @func getLastChar
